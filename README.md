@@ -48,6 +48,8 @@ Die Lizenz wird einmalig im Einstiegspunkt initialisiert.
 
 Die Services sind größtenteils nicht sortiert, das sollte man noch nach Schicht oder Bereich erledigen.
 
+Die API sollte hinter einem Reverse-Proxy betrieben werden.
+
 ## Last but not least:
 
-Im Grunde wollen wir alle nur eines: Sicherheit der Gesamtdaten. Klar kann es vorkommen, dass ein Lizenzschlüssel übernommen wird. Dann sind aber nicht ALLE Nutzer betroffen und es lässt sich nurnoch auf begrenzt Daten zugreifen.
+Im Grunde wollen wir alle nur eines: Sicherheit der Gesamtdaten. Klar kann es vorkommen, dass ein Lizenzschlüssel übernommen wird. Dann sind aber nicht ALLE Nutzer betroffen und es lässt sich nurnoch auf begrenzt Daten zugreifen. In Zukunft sollte das allerdings über ein sichereres Verfahren gelöst werden.
