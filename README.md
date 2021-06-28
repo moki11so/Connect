@@ -1,4 +1,6 @@
-﻿# MoSo Worker Implementation
+# MoSo Worker Implementation
+
+REL: [Beitrag von wortfilter.de](https://wortfilter.de/datenleck-modern-solution-loesung-kostenlos-open-sorce-fuer-euch/)
 
 Unvollständig, an einem Sonntag runtergehackt.
 
