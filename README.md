@@ -55,3 +55,5 @@ Die API sollte hinter einem Reverse-Proxy betrieben werden.
 ## Last but not least:
 
 Im Grunde wollen wir alle nur eines: Sicherheit der Gesamtdaten. Klar kann es vorkommen, dass ein Lizenzschlüssel übernommen wird. Dann sind aber nicht ALLE Nutzer betroffen und es lässt sich nurnoch auf begrenzt Daten zugreifen. In Zukunft sollte das allerdings über ein sichereres Verfahren gelöst werden.
+
+Sollte es Probleme, Anregungen oder Fragen mit der Implementation geben, darf gerne eine Em ail an mich gesendet werden.
