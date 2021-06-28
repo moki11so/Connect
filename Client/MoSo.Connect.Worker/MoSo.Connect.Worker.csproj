@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <UserSecretsId>dotnet-MoSo.Connect.Worker-F0710C80-7BE7-4FB6-8D7F-38DA18289120</UserSecretsId>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LightInject" Version="6.4.0" />
+        <PackageReference Include="LightInject.Microsoft.Hosting" Version="1.2.5" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MoSo.Connect\MoSo.Connect.csproj" />
+    </ItemGroup>
+</Project>

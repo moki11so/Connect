@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoSo.Connect", "MoSo.Connect\MoSo.Connect.csproj", "{4E17AB92-B870-4A41-B303-B5D62C1E9E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoSo.Connect.Worker", "MoSo.Connect.Worker\MoSo.Connect.Worker.csproj", "{C3CFCE63-5919-4194-A55E-533D9FFDB08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moki11so.Shared", "..\Shared\Moki11so.Shared\Moki11so.Shared.csproj", "{6200919C-39BA-43AC-9F73-E2695308886B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E17AB92-B870-4A41-B303-B5D62C1E9E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E17AB92-B870-4A41-B303-B5D62C1E9E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E17AB92-B870-4A41-B303-B5D62C1E9E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E17AB92-B870-4A41-B303-B5D62C1E9E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CFCE63-5919-4194-A55E-533D9FFDB08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CFCE63-5919-4194-A55E-533D9FFDB08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CFCE63-5919-4194-A55E-533D9FFDB08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CFCE63-5919-4194-A55E-533D9FFDB08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6200919C-39BA-43AC-9F73-E2695308886B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6200919C-39BA-43AC-9F73-E2695308886B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6200919C-39BA-43AC-9F73-E2695308886B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6200919C-39BA-43AC-9F73-E2695308886B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
