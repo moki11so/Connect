@@ -24,7 +24,7 @@ Der `PlatformWorkerService` holt sich vom Server die Information, welche Funktio
 
 Abhängigkeiten werden über Deependency-Injection aufgelöst und grundsätzlich nur über Interface abgebildet. Als ServiceContainer wird LightInject verwendet.
 
-Logging, Fehlerreportung usw. findet über `ILogger<T>` statt. Muss abgebrochen werden, wird NICHT `Environment.Exit` verwendet, sondern eine Ausnahme geworfen (`throw new Exception()`). Die wir spätestens im `TimedWorker` gefangen und geloggt. Logging-Reporting ist noch nicht gelöst. Das macht man auch nicht Synchron, weil gerade wenn der API-Dienst nciht erreichbar ist, bringt es garnichts. Ich empfehle hier irgendwas mit Windows EventLog und zusätzlich eine Queue, die beim Start des EntryWorkers verschickt wird.
+Logging, Fehlerreportung usw. findet über `ILogger<T>` statt. Muss abgebrochen werden, wird NICHT `Environment.Exit` verwendet, sondern eine Ausnahme geworfen (`throw new Exception()`). Die Ausnahme wird spätestens im `TimedWorker` gefangen und geloggt. Logging-Reporting ist noch nicht gelöst. Das macht man auch nicht Synchron, weil gerade wenn der API-Dienst nciht erreichbar ist, bringt es garnichts. Ich empfehle hier irgendwas mit Windows EventLog und zusätzlich eine Queue, die beim Start des EntryWorkers verschickt wird.
 
 Kommunikation mit der Api findet über REST-ähnliche Aufrufe statt. Der Service `IClient` und die Implementation `Client` wird nicht von Hand bearbeitet, sondern mit NSwagStudio generiert. Die Konfiguration liegt bei. Es werden keine DTOs erzeugt, da diese im Shared zu liegen haben.
 
