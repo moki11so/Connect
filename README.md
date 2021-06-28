@@ -41,7 +41,7 @@ Grundsätzlich gibt es immernoch einige Punkte, die im Ablauf zu bemängeln sind
 
 Ich bin jedoch schon froh, wenn kein direkter Zugriff auf die Datenbank mehr erfolgt! 
 
-Die Qualität des Codes ist grundsätzlich besser, als vorher. Durch Atomarisierung werden Gottklassen vermieden. Sortierung, Benennung und Prefixe sind eindeutiger (Vorher zum Beispiel: Billig für Zahlungsart oder Get anstatt Count oder Get und nichts wurde zurückgegeben).
+Die Qualität des Codes ist grundsätzlich besser, als vorher. Durch Atomarisierung werden Gottklassen vermieden. Sortierung, Benennung und Prefixe sind eindeutiger (Vorher zum Beispiel: Billing für Zahlungsart oder Get anstatt Count oder Get und nichts wurde zurückgegeben).
 Anstatt großer Arrays werden nun Objekte an allen Stellen zurückgegeben und zur Identifizierung zum Beispiel Aufträge, wird die Plattform und die externe Auftragsnummer (von der Plattform) herangezogen.
 
 Die Lizenz wird einmalig im Einstiegspunkt initialisiert.
